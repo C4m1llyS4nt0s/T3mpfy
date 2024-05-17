@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempfy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="./img/Group_1.svg">
+    <div id="telaPrincipal"> 
+      <h2 class="texto">Converter temperatura</h2>
+      <form action="cadastro.php" method="get" autocomplete="on"></form>    
+      <select name = "temperatura" id="medir">
+        <option> Selecione a temperatura</option>
+        <option> Celsius</option>
+        <option> Fahrenheit</option>
+        <option > Kelvin</option>
+        </select>      
+        <input placeholder="Digite Valor" name="valor" id="val" type="number"> 
+      <button class="button">Converter</button>
+      <div id="result"></div>
+    </div>
+   <script src="./script.js"></script> 
+</body>
+</html>
